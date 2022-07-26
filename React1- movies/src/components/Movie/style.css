@@ -1,0 +1,47 @@
+.movie{
+    border: 1px solid lightgray;
+    padding: 20px;
+    background-color: white;
+    font-size: 15px;
+}
+
+h2,h4{
+    color: darkred;
+    margin: 10px 0
+}
+
+
+.movie__container{
+    display: grid;
+    grid-template-columns: auto 300px;
+    grid-row: auto;
+}
+
+.movie__poster{
+    width: 90%;
+    object-fit: cover;
+}
+.movie__info{
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.bold_text{
+    font-weight: bolder;
+}
+.movie__title{
+    margin: 2px;
+}
+
+.movie__cast{
+    display: grid;
+    grid-template-columns: repeat(2,150px);
+    gap: 2px;
+}
+
+p {
+    display: inline-block;
+    margin:2px;
+}
